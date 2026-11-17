@@ -1,0 +1,45 @@
+<!doctype html> 
+   <head>
+
+     <meta charset="utf-8"> 
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>formulario</title>
+ </head>
+ <body>
+      </form>
+          <fieldset>
+             <legend>dados pessoais</legend>
+               <label for="nome completo">nome completo: </label>
+               <input type="text" id="nome_completo" name="nome_completo" placeholder="digite seu nome completo aqui"></label>
+
+               <label for="dt_nascimento">data de nascimento</label>
+               <input type="date" id="dt_nascimento" name="dt_nascimento">
+
+               <label for="uf">unidade federativa</label>
+               <select name="uf" id="uf">
+                    <option value="sp">sp</option>
+               </select>
+               </fieldset>
+
+             <fieldset>
+             <legend>genero</legend>
+               <label for="masculino">masculino</label>
+               <input type="radio" id="masculino"name="masculino" name="genero" value="m">
+
+               <label for="feminino">feminino</label>
+               <input type="radio" id="feminino"name="feminino" name="genero"value="f">
+        </fieldset>
+
+        <fieldset>
+        <legend>cursos</legend>
+           <label for="ti"> ti </label>
+           <input type="checkbox" id="ti" name="cursos" value="ti">
+
+           <label for="mecanica-a">mecanica aeronáltica</label>
+           <input type="checkbox" id="mecanica_a"name="cursos" value="mecanica_a">
+           </fieldset>
+
+           <input type="submit" value="enviar">
+          </form>
+      </body>
+   </html>
